@@ -20,6 +20,9 @@ font-family: 'Roboto', sans-serif;
 body {
   color: var(--main-text);
   background-color: var(--main-background);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.71;
 }
 
 /* header */
@@ -29,20 +32,35 @@ header {
 
 .logo-accent {
   color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  line-height: 1.17;
 }
 .logo-main {
   color: var(--black);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  line-height: 1.17;
 }
 .nav-link {
   color: var(--title-color);
+  font-weight: 500;
+  line-height: 1.17;
 }
 .nav-link:hover,
-.nav-link:target {
+.nav-link:focus,
+.nav-link:active {
   color: var(--accent-color);
+}
+.nav-link-current {
+  color: var(--accent-color);
+  font-weight: 500;
 }
 
 .nav-contact {
   color: var(--main-text);
+  font-weight: 500;
+  line-height: 1.17;
 }
 .nav-contact:hover,
 .nav-contact:target {
@@ -54,14 +72,34 @@ header {
   background-color: var(--dark-background);
   text-align: center;
   color: #ffffff;
+  font-weight: 900;
+  line-height: 1.36;
 }
-.button {
+.hero-button {
   background-color: var(--accent-color);
   color: var(--white);
   cursor: pointer;
+  font-weight: 700;
+  line-height: 1.875;
 }
+.section-title {
+  color: var(--title-color);
+  font-weight: 700;
+  line-height: 1.17;
+}
+
 .title-text {
   color: var(--title-color);
+  font-weight: 700;
+  line-height: 1.17;
+}
+.team-name {
+  color: var(--title-color);
+  font-weight: 500;
+  line-height: 1.17;
+}
+.team-job {
+  line-height: 1.17;
 }
 
 /* features */
@@ -80,7 +118,27 @@ footer {
 }
 .address-text {
   color: var(--white);
+  font-style: normal;
 }
 .address-transparent {
   color: #ffffff99;
+  font-style: normal;
+}
+/* portfolio */
+
+.filter-button {
+  background-color: var(--secondary-background);
+  color: var(--title-color);
+  line-height: 1.625;
+}
+.filter-button:hover,
+.filter-button:target {
+  background-color: var(--accent-color);
+  color: var(--main-background);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+.project-type {
+  line-height: 1.875;
 }
