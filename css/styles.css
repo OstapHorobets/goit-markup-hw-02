@@ -101,6 +101,9 @@ header {
 .team-job {
   line-height: 1.17;
 }
+.section-title-hidden {
+  display: none;
+}
 
 /* features */
 .features-section {
