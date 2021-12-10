@@ -1,0 +1,86 @@
+/*
+шрифты
+roboto 400 500 700 900
+raleway 700
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+:root {
+  --main-text: #757575;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  --main-background: #ffffff;
+  --secondary-background: #f5f4fa;
+  --black: #000000;
+  --white: #ffffff;
+  --dark-background: #2f303a;
+}
+
+/*  */
+body {
+  color: var(--main-text);
+  background-color: var(--main-background);
+}
+
+/* header */
+header {
+  background-color: var(--main-background);
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+.logo-main {
+  color: var(--black);
+}
+.nav-link {
+  color: var(--title-color);
+}
+.nav-link:hover,
+.nav-link:target {
+  color: var(--accent-color);
+}
+
+.nav-contact {
+  color: var(--main-text);
+}
+.nav-contact:hover,
+.nav-contact:target {
+  color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+  background-color: var(--dark-background);
+  text-align: center;
+  color: #ffffff;
+}
+.button {
+  background-color: var(--accent-color);
+  color: var(--white);
+  cursor: pointer;
+}
+.title-text {
+  color: var(--title-color);
+}
+
+/* features */
+.features-section {
+  background-color: var(--main-background);
+}
+
+/* our team */
+.team-section {
+  background-color: var(--secondary-background);
+}
+
+/* footer */
+footer {
+  background-color: var(--dark-background);
+}
+.address-text {
+  color: var(--white);
+}
+.address-transparent {
+  color: #ffffff99;
+}
