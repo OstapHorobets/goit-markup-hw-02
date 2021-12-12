@@ -120,16 +120,7 @@ header {
   font-weight: 700;
   line-height: 1.17;
 }
-.team-name {
-  color: var(--title-color);
-  font-weight: 500;
-  line-height: 1.17;
-  font-size: 16px;
-}
-.team-job {
-  line-height: 1.17;
-  font-size: 16px;
-}
+
 .section-title-hidden {
   display: none;
 }
@@ -142,6 +133,16 @@ header {
 /* our team */
 .team-section {
   background-color: var(--secondary-background);
+}
+.team-name {
+  color: var(--title-color);
+  font-weight: 500;
+  line-height: 1.17;
+  font-size: 16px;
+}
+.team-job {
+  line-height: 1.17;
+  font-size: 16px;
 }
 
 /* footer */
