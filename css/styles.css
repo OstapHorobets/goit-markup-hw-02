@@ -83,6 +83,7 @@ header {
   background-color: var(--accent-color);
   color: var(--white);
   cursor: pointer;
+  font-family: inherit;
   font-weight: 700;
   line-height: 1.875;
 }
@@ -138,13 +139,13 @@ footer {
   background-color: var(--secondary-background);
   color: var(--title-color);
   line-height: 1.625;
+  font-family: inherit;
+  font-weight: 500;
 }
 .filter-button:hover,
 .filter-button:target {
   background-color: var(--accent-color);
   color: var(--main-background);
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
   cursor: pointer;
 }
 .project-type {
