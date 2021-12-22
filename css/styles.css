@@ -172,7 +172,7 @@ header {
   background-color: var(--dark-background);
   text-align: center;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
   }
 
 .hero-title {
@@ -212,7 +212,6 @@ justify-content: center;
 
 .features-list-item {
   width: 270px;
-  height: 101px;
 }
 
 .features.list li+li {
@@ -220,8 +219,7 @@ justify-content: center;
 }
 .features-paragraph {
   display: block;
-  width: 270px;
-  height: 75px;
+  width: 270px; 
 }
 
 .section-title {
@@ -237,6 +235,7 @@ justify-content: center;
   color: var(--title-color);
   font-weight: 700;
   line-height: 1.17;
+  margin-bottom: 10px;
 }
 
 /* visually hidden */
@@ -281,7 +280,6 @@ justify-content: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   width: 270px;
-  height: 368px;
   text-align: center;
 }
 
@@ -289,12 +287,16 @@ justify-content: center;
   margin-left: 30px;
 }
 
+.team-card {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-name {
   color: var(--title-color);
   font-weight: 500;
   line-height: 1.17;
   font-size: 16px;
-  margin-top: 30px;
 }
 .team-job {
   line-height: 1.17;
@@ -373,10 +375,12 @@ address ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  }
+  margin-bottom: 4px;
+}
 .project-type {
   line-height: 1.875;
   color: var(--main-text);
+  font-size: 16px;
 }
 .projects.list {
   margin-top: 50px;
@@ -399,7 +403,6 @@ address ul {
 
 .project-text {
   width: 370px;
-  height: 110px;
   padding: 20px 24px;
   border-right: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
